@@ -1,4 +1,4 @@
-package com.hadoop.demo.MaxTemperture;
+package com.hadoopdemo.MaxTemperture;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;

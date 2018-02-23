@@ -1,4 +1,4 @@
-package com.hadoop.demo.MaxTemperture;
+package com.hadoopdemo.MaxTemperture;
 
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
@@ -14,7 +14,7 @@ public class MaxTemperatureDriver extends Configured implements Tool {
 
     public int run(String[] args) throws Exception {
         if (args.length != 2) {
-            //hadoop jar hadoop-demo.jar  com.hadoop.demo.MaxTemperture.MaxTemperatureDriver -conf conf/hadoop-cluster.xml input/ncdc/micro output
+            //hadoop jar hadoop-demo.jar  MaxTemperatureDriver -conf conf/hadoop-cluster.xml input/ncdc/micro output
             System.err.printf("Usage: %s [generic options] <input> <output>\n",
                     getClass().getSimpleName());
             ToolRunner.printGenericCommandUsage(System.err);

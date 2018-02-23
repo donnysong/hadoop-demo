@@ -1,4 +1,4 @@
-package com.hadoop.demo.conf;
+package com.hadoopdemo.conf;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.log4j.Logger;

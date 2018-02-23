@@ -1,4 +1,4 @@
-package com.hadoop.demo.MaxTemperture;
+package com.hadoopdemo.MaxTemperture;
 
 /**
  * Created by Administrator on 2017/7/26.
