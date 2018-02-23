@@ -1,4 +1,4 @@
-package com.hadoopdemo.filetest;
+package com.hadoop.demo.filetest;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
@@ -8,7 +8,6 @@ import org.apache.hadoop.io.IOUtils;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URI;
 
 public class FileSystemDoubleCat {

@@ -1,4 +1,4 @@
-package com.hadoopdemo.filetest;
+package com.hadoop.demo.filetest;
 
 import org.apache.hadoop.fs.FsUrlStreamHandlerFactory;
 import org.apache.hadoop.io.IOUtils;
