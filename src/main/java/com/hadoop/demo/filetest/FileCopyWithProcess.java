@@ -7,6 +7,7 @@ import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.util.Progressable;
 import org.apache.log4j.Logger;
 
+import java.io.*;
 import java.net.URI;
 //bin/hadoop --loglevel DEBUG com.hadoopdemo.filetest.FileCopyWithProcess test.txt hdfs://localhost:9003/user/root/input/test.txt
 //bin/hadoop fs -cat input/test.txt
